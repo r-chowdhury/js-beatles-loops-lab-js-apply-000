@@ -1,9 +1,7 @@
 const theBeatlesPlay = (musician, instrument) => {
-  let musicians = [];
-  let instruments = [];
+  const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+  const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
   for (i = 0; i <= musicians.length-1; i++) { //musicians and instruments will be equilength.
-    musicians[i] = 'John Lennon'
-    instruments[i] = 'guitar'
-    console.log()
+    console.log(musicians[i] + " plays " + instruments[i] + ".");
   }
 }
