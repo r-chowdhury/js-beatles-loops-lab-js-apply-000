@@ -20,8 +20,8 @@ const johnLennonFacts = (facts) => {
 const iLoveTheBeatles = (number) => {
   let proclamationOfLove = [];
   do {
-    proclamationOfLove.push("I love the Beatles!")
-    number ++
+    proclamationOfLove.push("I love the Beatles!");
+    number ++;
   } while (number < 15)
-  return proclamationOfLove
+  return proclamationOfLove;
 }
