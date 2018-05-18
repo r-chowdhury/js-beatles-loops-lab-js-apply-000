@@ -1,6 +1,3 @@
-const musicians = [];
-const instruments = [];
-
 const theBeatlesPlay = (musicians, instruments) => {
   var i;
   let playerToInstrument = [];
