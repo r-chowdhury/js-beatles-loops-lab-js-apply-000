@@ -16,3 +16,4 @@ const johnLennonFacts = (facts) => {
   }
   return loudJohnLennonFacts;
 }
+
