@@ -12,6 +12,7 @@ const johnLennonFacts = (facts) => {
   let loudJohnLennonFacts = [];
   while (i < facts.length) {
     loudJohnLennonFacts.push(facts[i] + '!!!')
+    i++
   }
   return loudJohnLennonFacts;
 }
