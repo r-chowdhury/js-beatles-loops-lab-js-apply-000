@@ -7,3 +7,11 @@ const theBeatlesPlay = (musicians, instruments) => {
   return playerToInstrument;
 }
 
+const johnLennonFacts = (facts) => {
+  let i = 0;
+  let loudJohnLennonFacts = [];
+  while (i < johnLennonFacts.length) {
+    loudJohnLennonFacts.push(johnLennonFacts[i] + '!!!')
+  }
+  return loudJohnLennonFacts;
+}
