@@ -17,3 +17,7 @@ const johnLennonFacts = (facts) => {
   return loudJohnLennonFacts;
 }
 
+const iLoveTheBeatles = (number) => {
+  let proclamationOfLove = [];
+  while i < 
+}
