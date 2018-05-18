@@ -11,7 +11,7 @@ const johnLennonFacts = (facts) => {
   let i = 0;
   let loudJohnLennonFacts = [];
   while (i < facts.length) {
-    loudJohnLennonFacts.push(johnLennonFacts[i] + '!!!')
+    loudJohnLennonFacts.push(facts[i] + '!!!')
   }
   return loudJohnLennonFacts;
 }
